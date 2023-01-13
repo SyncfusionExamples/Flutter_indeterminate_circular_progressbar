@@ -18,9 +18,6 @@ class _SegmentedIndeterminateProgressbarState
   AnimationController linearAnimationController;
   double animationValue = 0;
 
-  static final Tween<double> _lowToHighValueTween =
-      Tween<double>(begin: 0, end: 360);
-
   @override
   void initState() {
     super.initState();
